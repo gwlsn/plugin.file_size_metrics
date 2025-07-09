@@ -482,6 +482,10 @@ def on_postprocessor_task_results(data, store):
     :return:
 
     """
+    # Only run this for successfully processed tasks
+    if not data.get('task_processing_success', False):
+        logger.info("Ignoring recording task results for task as it did not succeed.")
+        return
 
     # Get the original file's absolute path
     original_source_path = data.get('source_data', {}).get('abspath')
