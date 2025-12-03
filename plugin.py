@@ -2,11 +2,11 @@
 # -*- coding: utf-8 -*-
 
 """
-    Written by:               Josh.5 <jsunnex@gmail.com>
-    Date:                     25 April 2021, (3:41 AM)
+    Written by:               Josh.5 <jsunnex@gmail.com>, gwlsn
+    Date:                     2 December 2025, (7:09 PM)
 
     Copyright:
-        Copyright (C) 2021 Josh Sunnex
+        Copyright (C) 2025 Josh Sunnex
 
         This program is free software: you can redistribute it and/or modify it under the terms of the GNU General
         Public License as published by the Free Software Foundation, version 3.
